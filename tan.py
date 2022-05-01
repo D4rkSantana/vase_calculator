@@ -1,3 +1,4 @@
+#dict contendo os valores de tangentes dos angulos
 tan = {
     1: 0.017455,
     2: 0.034921,

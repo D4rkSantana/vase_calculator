@@ -49,4 +49,3 @@ class Object_round(Object):
     def set_radius(self, internal, external):
         self.radius_int = internal
         self.radius_ext = external
-

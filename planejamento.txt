@@ -1,0 +1,24 @@
+- class solid
+
+--> poliedros (solid)
+----> piramidal (poliedros)
+        -regular
+        -não regular
+----> prismatico (poliedros)
+        -regular
+        -não regular
+----> convexos (poliedros)
+
+--> not_poliedros (solid)
+---->cilindricos (not_poliedros)
+        -convexo
+        -regular
+---->conico (not_poliedros)
+---->meia lua (not_poliedros)
+        -convexo
+        -regular
+
+classe primaria: solido
+Classes secundarias: poliedro, não poliedro
+terciarias poliedros: piramidal, prismatico, convexo
+terciarios não poliedro: cilindro, conico, meia lua
