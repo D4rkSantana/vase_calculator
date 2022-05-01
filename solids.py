@@ -1,5 +1,21 @@
 # ------------------------------------------------
 
+class Object:
+    def __init__(self):
+        self.format = None
+        self.name = "indefinido"
+        
+    def __str__(self):
+        return self.name
+
+    def setFormat(self, format):
+        self.format = format
+
+    def getFormat(self):
+        return self.format
+
+    
+
 class Solids:
     def __init__(self):
         self.volume_int = None
